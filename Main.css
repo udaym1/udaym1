@@ -406,6 +406,8 @@ header, footer {
         -moz-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);
+        margin: auto;
+        margin-top: 3.7em;
     }
 }
 
@@ -415,6 +417,8 @@ header, footer {
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
+        margin: auto;
+        margin-top: 3.7em;
     }
 }
 
