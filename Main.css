@@ -392,4 +392,31 @@ header, footer {
     }
 }
 
+@media (max-width: 2438px) {
+    .main-content {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 3000px) {
+    .main-content {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 3500px) {
+    .main-content {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
 
