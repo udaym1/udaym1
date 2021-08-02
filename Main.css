@@ -417,10 +417,8 @@ header, footer {
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-top: 4.2em;
+        margin: auto;
+        margin-top: 3.7em;
     }
 }
 
