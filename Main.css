@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Biryani', sans-serif;
+    font-size: 1.2em;
+    background-color: white;
+    overflow-wrap: break-word;
+    position: relative;
+}
+
+header {
+    display: flex;
+    height: 3.5em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("./Assets/zigzag.png");
+    border: 2px solid #000000;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+footer {
+    display: flex;
+    height: 3em;
+    width: 100%;
+    background: url("./Assets/zigzag.png");
+    border: 2px solid #000000;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+nav {
+    background-color: none;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    font-weight: 200;
+}
+
+#logo-link {
+    position: flex;
+    margin-top: 1%;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    padding: 0.6vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0;
+    line-height: 123.5%;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 8.38541666667%;
+}
+
+.nav-links, .nav-link, .logo-container {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+    margin-left: 2.70833333%;
+}
+
+.main-content {
+    color: none;
+    display: grid;
+    grid-column-gap: 10.15625%;
+    grid-row-gap: 1.85185185%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    margin-left: -14.23%;
+    margin-top: -1.4em;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    position: fixed;
+}
+
+.projects {
+    display: grid;
+    margin-left: 4%;
+    grid-column-gap: 1.04166667%;
+    grid-row-gap: 1.85185185%;
+    grid-template-columns: 40px 211px 211px 211px 211px 50px;
+    grid-template-rows: 50px 146px 146px 146px 146px 146px;
+    grid-gap: 17.5px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.intro-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 13%;
+}
+
+#greeting-container {
+    display: grid;
+    grid-column-gap: 0%;
+    grid-row-gap: 0%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+#greeting {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+#greeting-animated-rectangle {
+    opacity: 0;
+    transform: translate(0px, 100%) scaleY(0.5);
+    margin-top: 1px;
+    margin-left: 1px;
+    z-index: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    animation-name: fade-in;
+    animation-delay: 2s;
+    animation-duration: 0s;
+    animation-fill-mode: backwards;
+    transition: 1s;
+}
+
+#greeting:hover + #greeting-animated-rectangle {
+    transform: translate(0px, 0px) scaleY(1);
+    opacity: 1;
+    transition: 1s;
+}
+
+#text-animation {
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav-link-credits {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    padding: 0.2vw;
+    margin-left: 2.4em;
+    padding-top: 0.5vw;
+    padding-bottom: 0;
+    line-height: 122%;
+}
+
+#credits {
+    font-weight: 100;
+    font-size: 11px;
+    min-width: 100px;
+    text-align: center;
+    user-select: none;
+}
+
+.project-hovers {
+    transition: 0.5s;
+}
+
+#project-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#project-one-picture {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#project-one-picture:hover .project-hovers {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+#project-two-picture:hover .project-hovers {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+#project-three-picture:hover .project-hovers {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+#project-two {
+    background-color: none;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 3.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#project-two-picture {
+    background-color: none;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 3.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#project-three {
+    background-color: none;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#project-three-picture {
+    background-color: none;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#projects-text {
+    background-color: none;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    opacity: 0%;
+    animation-name: fade-in;
+    animation-delay: 4.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes subtle-bob {
+    0% {
+		transform: translatex(0px) scale(0.7);
+	}
+	50% {
+		transform: translatex(-5px) scale(0.7);
+	}
+	100% {
+		transform: translatex(0px) scale(0.7);
+	}
+}
+
+header, footer {
+    opacity: 0%;
+    animation-fill-mode: forwards;
+    animation-name: fade-in;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+@media (max-width: 1024px) {
+
+    .main-content {
+        grid-template-columns: 120%;
+        grid-template-rows: 50% 70%;
+        position: relative;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        margin-top: 10em;
+    }
+
+    .intro-text {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        max-width: 45%;
+        font-size: 1em;
+        margin-left: 16%;
+        margin-top: 0%;
+    }
+
+    .projects {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-left: 15%;
+        overflow-x: hidden;
+        grid-template-columns: 20% 55%;
+        grid-template-rows: 1%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
