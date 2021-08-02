@@ -411,7 +411,7 @@ header, footer {
     }
 }
 
-@media (min-width: 3500px) {
+@media (min-width: 3400px) {
     .main-content {
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
