@@ -109,8 +109,7 @@ a {
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     position: fixed;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 .projects {
