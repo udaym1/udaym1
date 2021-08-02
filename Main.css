@@ -109,7 +109,8 @@ a {
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     position: fixed;
-    margin: auto;
+    margin-right: auto;
+    margin-top: auto;
 }
 
 .projects {
@@ -353,7 +354,6 @@ header, footer {
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
-        margin-top: 10em;
     }
 
     .intro-text {
@@ -418,7 +418,7 @@ header, footer {
         -ms-transform: scale(1);
         transform: scale(1);
         margin: auto;
-        margin-top: 3.7em;
+        margin-top: 4.2em;
     }
 }
 
