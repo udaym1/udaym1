@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: udaym1.github.io
+baseurl: ""
 incremental: false
 highlighter: rouge
 gist:
