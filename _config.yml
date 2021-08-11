@@ -1,7 +1,6 @@
 lsi: false
 safe: true
 baseurl: ""
-url: "uday.design"
 incremental: false
 highlighter: rouge
 gist:
