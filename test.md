@@ -1,7 +1,5 @@
 ---
 layout: default
-title: About
+title: test article
 ---
-# About page
-
-This page tells you a little bit about me.
+this is a test article hello
