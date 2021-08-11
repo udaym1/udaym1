@@ -1,6 +1,6 @@
 ---
 layout: default
 title: test article
-permalink: /about/
+permalink: /daddy/
 ---
 this is a test article hello
