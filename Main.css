@@ -112,6 +112,24 @@ a {
     margin-top: auto;
 }
 
+.default-content {
+    color: none;
+    display: grid;
+    grid-column-gap: 10.15625%;
+    grid-row-gap: 1.85185185%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.4em;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    position: fixed;
+    margin-top: auto;
+}
+
 .projects {
     display: grid;
     margin-left: 4%;
