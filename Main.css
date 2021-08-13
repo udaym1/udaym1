@@ -121,13 +121,12 @@ a {
     grid-template-rows: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1.5em;
+    margin-top: -2.5em;
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     position: fixed;
-    margin-top: auto;
 }
 
 .projects {
@@ -157,7 +156,7 @@ a {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-    margin-top: 5%;
+    margin-top: 0px;
 }
 
 #greeting-container {
