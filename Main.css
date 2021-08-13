@@ -126,6 +126,10 @@ a {
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     position: fixed;
+    animation-name: fade-in;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .projects {
@@ -157,10 +161,6 @@ a {
     grid-row-end: 1;
     margin-top: 0px;
     overflow: scroll;
-    animation-name: fade-in;
-    animation-delay: 2s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
 }
 
 #greeting-container {
