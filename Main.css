@@ -130,6 +130,7 @@ a {
     animation-delay: 2s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .projects {
