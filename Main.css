@@ -68,6 +68,11 @@ a {
     margin-top: 1%;
 }
 
+#date {
+    font-family: 'Biryani', sans-serif;
+    font-size: 1.2em;
+}
+
 .nav-link {
     font-style: normal;
     font-weight: bold;
