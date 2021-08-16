@@ -372,7 +372,7 @@ header, footer {
     }
 
     .main-content {
-        grid-template-columns: 120%;
+        grid-template-columns: 100%;
         grid-template-rows: 50% 70%;
         position: relative;
         -webkit-transform: scale(1);
@@ -386,10 +386,10 @@ header, footer {
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 1;
-        max-width: 45%;
+        max-width: 70%;
         font-size: 1em;
         margin-left: 20%;
-        margin-top: 20%;
+        margin-top: 25%;
     }
 
     .projects {
