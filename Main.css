@@ -361,6 +361,8 @@ header, footer {
     animation-duration: 1s;
 }
 
+/* Mobile */
+
 @media (max-width: 1024px) {
 
     html {
@@ -401,6 +403,7 @@ header, footer {
         overflow-x: hidden;
         grid-template-columns: 20% 55%;
         grid-template-rows: 1%;
+        display: none;
     }
 
     header {
